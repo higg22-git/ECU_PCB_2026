@@ -1737,7 +1737,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2867,6 +2867,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 133.35) (xy 173.99 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca4f1a63-887d-485c-843c-125f492c633d")
+	)
+	(wire
+		(pts
 			(xy 229.87 107.95) (xy 234.95 107.95)
 		)
 		(stroke
@@ -2877,7 +2887,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 91.44) (xy 187.96 93.98)
+			(xy 187.96 91.44) (xy 187.96 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3989,7 +3999,7 @@
 		(pin "1"
 			(uuid "88f18f64-ca30-42b6-97fb-38f8d890880b")
 		)
-		(pin "1"
+		(pin "2"
 			(uuid "60d1c114-c591-4178-9c66-dfa382d52973")
 		)
 		(instances
@@ -4003,7 +4013,7 @@
 	)
 	(symbol
 		(lib_id "ECU_BOARD-altium-import:GND_POWER_GROUND")
-		(at 173.99 132.08 0)
+		(at 173.99 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4011,7 +4021,7 @@
 		(dnp no)
 		(uuid "58585538-edc0-489b-b026-c5a3dbadb1e6")
 		(property "Reference" "#PWR0102"
-			(at 173.99 132.08 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4020,7 +4030,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 173.99 138.43 0)
+			(at 173.99 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4028,7 +4038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.99 132.08 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +4046,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 173.99 132.08 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,7 +4054,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 173.99 132.08 0)
+			(at 173.99 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4806,7 +4816,7 @@
 	)
 	(symbol
 		(lib_id "ECU_BOARD-altium-import:GND_POWER_GROUND")
-		(at 187.96 93.98 0)
+		(at 187.96 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4814,7 +4824,7 @@
 		(dnp no)
 		(uuid "8d94ac86-8770-4425-bb62-e8b9af218b2c")
 		(property "Reference" "#PWR0107"
-			(at 187.96 93.98 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4823,7 +4833,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 187.96 100.33 0)
+			(at 187.96 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4831,7 +4841,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 187.96 93.98 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4839,7 +4849,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 93.98 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +4857,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 187.96 93.98 0)
+			(at 187.96 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +6031,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Horizontal"
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical"
 			(at 187.96 36.83 0)
 			(effects
 				(font
